@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Montserrat&family=Nunito&family=Poppins&display=swap');
+
+sticky{
+  background: #f64b3c;
+  position: fixed;
+  height:50px;
+  z-index: 100;
+
+}
+.heaer-responsive{
+  display:none;
+}
+body{
+  scroll-behavior:auto;
+}
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+/*-=-=-=-=header.start-=-=-=-=-=-*/
+.header {
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom:-99px;
+  background:-webkit-linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0));
+  background:linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0));
+  position: fixed;
+  height:50px;
+  z-index: 100;
+
+}
+.header-manue nav ul{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  list-style:none;
+}
+.header-manue nav ul li a{
+  display: block;
+  margin-top: 40px;
+  margin-left:20px;
+  font-weight: 500;
+  color:white;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+.header-logo img{
+  display: block;
+  width: 60px;
+  margin:15px 0;
+}
+/*-=-=-=-=header.end-=-=-=-=-=-*/
+/*-=-=-=-=section.start-=-=-=-=-=-*/
+.section01-main-part{
+  width: 100%;
+  height:100vh;
+  border:1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(../imgs/1.png);
+  background-repeat: no-repeat;
+  background-position:center top;
+  background-size: cover;
+}
+.section01-heading h1{
+  font-family: 'Archivo', sans-serif;
+  max-width: 600px;
+  font-weight:600;
+  font-size: 90px;
+  color:white;
+}
+.section01-heading p{
+  font-family: 'Nunito', sans-serif;
+  max-width:300px;
+  margin:5px 0 30px;
+  color:white;
+}
+.section01-heading button{
+  font-family: 'Montserrat', sans-serif;
+  outline:none;
+  background: #f64b3c;
+  color:white;
+  text-transform:uppercase;
+  font-weight: 600;
+  border:none;
+  padding:5px 40px;
+  border-radius:20px;
+}
+/*-=-=-=-=section.End-=-=-=-=-=-*/
+/*-=-=-=-=section-02-start-=-=-=-=-=-*/
+.section02-main-part{
+  width:100%;
+  max-width: 100%;
+  height:100vh;
+  text-align: center;
+  background-image:url(../imgs/3.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  padding:80px 0;
+}
+.section02-text  h3{
+  font-family: 'Archivo', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color:#f64b3c;
+}
+.section02-text p{
+  color:#f64b3c;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 700px;
+  margin:0 auto;
+  text-align:center;
+  padding-bottom:30px;
+}
+.section02-child01 h2{
+  color:#f64b3c;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  padding-top:10px;
+}
+.section02-child01 span{
+  color:#f64b3c;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+/*-=-=-=-=section-02-End-=-=-=-=-=-*/
+/*-=-=-=-=section-03-start-=-=-=-=-=-*/
+.section03-main-part{
+  background: #f64b3c;
+  padding:100px 0;
+  width: 100%;
+  height: 100vh;
+}
+.section03-parent{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.section03-parent div{
+  padding:0;
+}
+.section03-child02{
+  color:white;
+}
+.section03-child02 h2{
+  font-family: 'Archivo', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.section03-child02 p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  width:350px;
+}
+.section03-child02 button{
+  border:none;
+  outline:none;
+  font-family: 'Montserrat', sans-serif;
+  padding:5px 40px;
+  border-radius:20px;
+  background:white;
+  color:#f64b3c;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.section03-child02{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section03-parent > div img{
+  width:400px;
+  height: 400px;
+  display: block;
+}
+/*-=-=-=-=section-03-End-=-=-=-=-=-*/
+/*-=-=-=-=section-04-sart-=-=-=-=-=-*/
+.section04-main-part{
+  width:100%;
+  height: 120vh;
+  padding:100px 0;
+  background-image: url(../imgs/8.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.section04-parent{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top:100px;
+}
+.section04-text h2{
+  font-family: 'Archivo', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color:#f64b3c;
+}
+.section04-child01{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section04-text p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  width:350px;
+  color:#f64b3c;
+}
+.section04-text button{
+  border:none;
+  outline:none;
+  font-family: 'Montserrat', sans-serif;
+  padding:5px 40px;
+  border-radius:20px;
+  background:#f64b3c;
+  color:white;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.section04-child02 img{
+  width:400px;
+  height: 400px;
+  display: block;
+}
+/*-=-=-=-=section-04-End-=-=-=-=-=-*/
+/*-=-=-=-=section-05-start-=-=-=-=-=-*/
+.section05-main-part{
+  background:#f64b3c;
+  padding:100px 0;
+}
+.section05-parent{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.section05-parent > div{
+  border:5px solid white;
+  width:300px;
+  height:300px;
+  border-radius: 100%;
+  color:white;
+}
+.section05-child01{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section05-inner-child span{
+  font-family: 'Archivo', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+.section05-inner-child p{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.section05-text{
+  text-align: center;
+}
+.section05-text h2{
+  font-family: 'Archivo', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color:white;
+}
+.section05-text p{
+  max-width:500px;
+  margin:0 auto;
+  color:white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  padding:40px 0;
+}
+/*-=-=-=-=section-05-End-=-=-=-=-=-*/
+/*-=-=-=-=section-06-start-=-=-=-=-=-*/
+.section06-main-part{
+  width:100%;
+  height:120vh;
+  background:url(../imgs/9.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  text-align: center;
+  padding:50px 0;
+}
+.section06-text h2{
+  font-family: 'Archivo', sans-serif;
+  text-transform: capitalize;
+  font-weight:600;
+  font-size: 40px;
+  color:#f64b3c;
+  padding:15px 0 0px;
+}
+.section06-parent{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top:90px;
+}
+.section06-parent > div{
+  width:340px;
+  height: 400px;
+  background: white;
+  border-radius: 10px;
+  padding:30px 0;
+  text-align: center;
+
+}
+.section06-parent h3{
+  font-family: 'Archivo', sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color:#f64b3c;
+  text-transform: uppercase;
+  padding-bottom:20px;
+}
+.section06-parent span{
+  display: block;
+  font-family: 'Archivo', sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color:#f64b3c;
+  padding-top:30px;
+  padding-bottom:15px;
+}
+.section06-parent p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color:#f64b3c;
+  margin:0 auto;
+  width:300px;
+  padding-bottom:20px;
+}
+.section06-parent button{
+  padding:7px 40px;
+  border:none;
+  outline:none;
+  border-radius: 20px;
+  font-weight: 600;
+  color:white;
+  background:#f64b3c;
+}
+/*-=-=-=-=section-06-End-=-=-=-=-=-*/
+/*-=-=-=-=section-07-start-=-=-=-=-=-*/
+.section07-main-part{
+  background:url(../imgs/11.png);
+  width:100%;
+  height:80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding:50px 0;
+  text-align: center;
+}
+.section07-main-part{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section07-text h2{
+  font-size: 36px;
+  color:white;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding-top:30px;
+  padding-bottom:10px;
+  font-family: 'Poppins', sans-serif;
+}
+.section07-text p{
+  font-size: 25px;
+  color:white;
+  max-width:450px;
+  text-align:center;
+  margin:0 auto;
+  font-family: 'Archivo', sans-serif;
+}
+/*-=-=-=-=section-06-End-=-=-=-=-=-*/
+/*-=-=-=-=section-07-start-=-=-=-=-=-*/
+.section08-main-part{
+  width:100%;
+  height: 90vh;
+  background:url(../imgs/12.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:80px 0;
+  text-align:center;
+  z-index:70;
+}
+.section08-text{
+  color:#f64b3c;
+}
+.section08-text h2{
+  font-family: 'Archivo', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  padding-top:90px;
+}
+.section08-text p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  max-width:600px;
+  margin:0 auto;
+  padding:60px 0;
+}
+.section08-form{
+  z-index: 20;
+}
+.section08-form form{
+  position: relative;
+}
+.section08-form form input{
+  padding:8px 45px 8px 30px;
+  border:none;
+  border-top-left-radius:20px;
+  border-bottom-left-radius:20px;
+  outline:none;
+}
+.section08-form form button{
+  position: absolute;
+  outline: none;
+  padding:8px 40px;
+  border:none;
+  background:#f64b3c;
+  color:white;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+/*-=-=-=-=section-07-End-=-=-=-=-=-*/
+/*-=-=-=-=Footer-start-=-=-=-=-=-*/
+.footer-main-part{
+  background:#222222;
+  width:100%;
+  height: auto;
+  padding:100px 0;
+  color:white;
+}
+.footer-parent{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer-parent h2{
+  font-family: 'Archivo', sans-serif;
+  font-size: 30px;
+  padding-bottom:20px;
+  text-transform: capitalize;
+}
+.footer-child01 p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  max-width:480px;
+}
+.footer-child01 ul{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+.footer-child01 ul li{
+  background:white;
+  margin-left:20px;
+  border-radius:100%;
+  width:50px;
+  height: 50px;
+}
+.footer-child01 ul li a{
+  text-decoration: none;
+  }
+.footer-child01 ul li i{
+  font-size: 30px;
+  color:black;
+  margin-top:10px;
+  margin-left:10px;
+}
+.footer-parent a{
+  color:white;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom:8px;
+  display: block;
+
+}
+/*-=-=-=-=Footer-end-=-=-=-=-=-*/
